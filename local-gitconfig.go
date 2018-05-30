@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"gopkg.in/libgit2/git2go.v26"
 	"os/exec"
 	"strings"
+
+	"gopkg.in/libgit2/git2go.v27"
 )
 
 type LocalGitConfig struct {
